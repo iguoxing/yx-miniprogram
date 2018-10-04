@@ -1,0 +1,6 @@
+<view class='login'>
+  <image class="logo" src='http://yix.oss-cn-beijing.aliyuncs.com/assets/img/common/logo.png'></image>
+  <image class='banner' src='https://yix.oss-cn-beijing.aliyuncs.com/assets%2Fimg%2Fcommon%2Fbanner.jpg'></image>
+  <view class='title'>让呼吸不同凡享</view>
+  <view class='login-btn' bindtap="loginYX">登录</view>
+</view>

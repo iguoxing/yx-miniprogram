@@ -1,0 +1,33 @@
+.login{
+  height: 100%;
+  text-align: center;
+}
+
+.login .logo{
+  margin:40rpx 0 82rpx;
+  width: 188rpx;
+  height: 80rpx;
+}
+
+.login .banner{
+  display: block;
+  margin: 0 auto 90rpx;
+  width: 550rpx;
+  height: 550rpx;
+}
+
+.login .title{
+  margin-bottom: 96rpx;
+  font-size: 30rpx;
+}
+
+.login .login-btn{
+  margin: 0 auto;
+  width: 580rpx;
+  height: 112rpx;
+  line-height: 112rpx;
+  border-radius: 56rpx;
+  background:  #FD7849;
+  background-image: #FD7849;
+  color: #fff;
+}

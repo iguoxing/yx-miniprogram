@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/login",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FD7849",
+    "navigationBarTitleText": "怡享",
+    "navigationBarTextStyle":"white"
+  }
+}
