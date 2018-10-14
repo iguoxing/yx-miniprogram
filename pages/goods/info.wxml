@@ -1,0 +1,36 @@
+<view class="yx-goods-info">
+  <swiper indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" current="{{swiper.current}}">
+    <block wx:for="{{swiper.imgUrls}}" wx:key="swiperKey">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        <image class="prev arrow" bindtap='prevImg' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/info/arrow_left.svg'></image>
+        <image class="next arrow" bindtap='nextImg' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/info/arrow_right.svg'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="goods-content">
+    <view class="content-title">怡享经典净化器</view>
+    <view class="content-info flex-space-between">
+       <view class='content-price flex-center-center'>
+         <text class="price-now">¥2200</text>
+         <text class="price-before">¥6600</text>
+       </view>
+       <view class='content-line'></view>
+       <view class='content-num flex-center-center'>
+         <text class="price-now">已售682台</text>
+         <text class="price-before">库存10台</text>
+       </view>
+    </view>
+    <view class='content-des'>
+      <view>360度立体循环净化设计，全方位强力进风高效过滤空气污染物，斜向上出风更大限度的提高室内空气流转的速度和净化效率。</view>
+      <view class='margin-top-2'>测霾仪实时监管空气质量，根据数值自动调整风力大小。</view>
+    </view>
+    <view class='content-btn btn-primary'>分享可得60元代金券</view>
+  </view>
+
+  <view class='flex-center-center'>
+    <view class='btn-info'>加入购物车</view>
+    <view class='btn-info'>立即购买</view>
+  </view>
+</view>

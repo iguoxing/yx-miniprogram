@@ -1,4 +1,5 @@
 /**app.wxss**/
+
 .container {
   height: 100%;
   display: flex;
@@ -7,9 +8,47 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
 
-.yx-index,.yx-goods-list{
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top-2 {
+  margin-top: 40rpx;
+}
+
+.btn-primary {
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(81deg, #fa508c, #ffc86e);
+  font-weight: 600;
+  letter-spacing: 1.6rpx;
+  color: #fff;
+}
+
+.btn-info {
+  width: 224rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 46rpx;
+  border: solid 2rpx #f55a23;
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1.6rpx;
+  text-align: center;
+  color: #f55a23;
+}
+
+.yx-index, .yx-goods-list, .yx-goods-info {
   min-height: 100%;
   background-image: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/head.png);
   background-repeat: no-repeat;
