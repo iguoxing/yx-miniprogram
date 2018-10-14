@@ -1,0 +1,24 @@
+.yx-goods-list{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 130rpx;
+  text-align: center;
+}
+
+.yx-goods-list .goods-list-item{
+  width: 375rpx;
+  height: 456rpx;
+}
+
+.goods-list-item .goods-list-img{
+  margin-bottom: 26rpx;
+  width: 168rpx;
+  height:322rpx; 
+}
+
+.goods-list-item .goods-list-title{
+  font-size: 22rpx;
+  letter-spacing: 1.2rpx;
+  color: #000;
+}

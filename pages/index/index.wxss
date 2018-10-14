@@ -1,21 +1,72 @@
 /**index.wxss**/
-.userinfo {
+/* page{
+  height: 100%;
+  
+} */
+
+.yx-index{
+  text-align: center;
+}
+
+.yx-index .index-video{
+  margin-top: 120rpx;
+  width: 670rpx;
+  height: 384rpx;
+  border-radius: 20rpx;
+}
+
+.yx-index .index-nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin: 46rpx 40rpx 42rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.index-nav .index-title{
+  font-size: 32rpx;
+  letter-spacing: 0.4rpx;
+  color: #24253d;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.index-nav .index-title-more{
+  font-size: 24rpx;
+  letter-spacing: 0.2rpx;
+  text-align: right;
+  color: rgba(36, 37, 61, 0.5);
 }
 
-.usermotto {
-  margin-top: 200px;
+/* 产品列表 */
+.yx-index .index-goods{
+  display: -webkit-box;
+  overflow-x: scroll;
+  margin-bottom: 36rpx;
+  /* flex-direction: column; */
+  padding-left: 40rpx;
+}
+
+.index-goods .goods-item{
+  margin-right: 80rpx;
+  margin-left: 40rpx;
+}
+
+.index-goods .goods-img{
+  margin-bottom: 26rpx;
+  width: 168rpx;
+  height: 320rpx;
+}
+
+.index-goods .goods-title{
+  font-size: 22rpx;
+  letter-spacing: 1.2rpx;
+  text-align: center;
+  color: #000;
+}
+
+.yx-index .index-phone{
+  opacity: 0.88;
+  font-size: 24rpx;
+  letter-spacing: 1.6rpx;
+  text-align: center;
+  text-decoration: underline;
+  color: #9b9b9b;
 }

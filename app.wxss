@@ -8,3 +8,10 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.yx-index,.yx-goods-list{
+  min-height: 100%;
+  background-image: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/head.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

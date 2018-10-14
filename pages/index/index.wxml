@@ -1,13 +1,22 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="yx-index">
+  <video class="index-video" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/video/yixiang.mp4'></video>
+  <view class='index-nav'>
+    <text class='index-title'>产品</text>
+    <navigator url="/pages/goods/list" class='index-title-more'>更多产品 ></navigator>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="index-goods">
+     <view class='goods-item'>
+        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'></image>
+        <view class="goods-title">怡享经典净化器</view>
+     </view>
+     <view class='goods-item'>
+        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_2.png'></image>
+        <view class="goods-title">怡享智能门锁</view>
+     </view>
+     <view class='goods-item'>
+        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_3.png'></image>
+        <view class="goods-title">怡享净化器滤芯</view>
+     </view>
   </view>
+  <a class='index-phone'>联系客服：400-707-8889</a>
 </view>

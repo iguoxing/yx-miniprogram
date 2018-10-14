@@ -1,0 +1,26 @@
+<view class="yx-goods-list">
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'></image>
+    <view class="goods-list-title">怡享净化器</view>
+  </view>
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_2.png'></image>
+    <view class="goods-list-title">怡享智能门锁</view>
+  </view>
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_3.png'></image>
+    <view class="goods-list-title">怡享净化器滤芯</view>
+  </view>
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'></image>
+    <view class="goods-list-title">怡享净化器滤芯</view>
+  </view>
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_3.png'></image>
+    <view class="goods-list-title">怡享净化器滤芯</view>
+  </view>
+  <view class="goods-list-item">
+    <image class="goods-list-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'></image>
+    <view class="goods-list-title">怡享净化器滤芯</view>
+  </view>
+</view>
