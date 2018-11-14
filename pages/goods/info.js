@@ -28,11 +28,10 @@ Page({
     })
   },
   nextImg: function() {
-    console.info(1111)
     var swiper = this.data.swiper;
     var current = swiper.current;
     swiper.current= current < (swiper.imgUrls.length - 1) ? current + 1 : 0;
-    console.info(swiper.current)
+    // console.info(swiper.current)
     this.setData({
       swiper: swiper,
     })
@@ -92,5 +91,15 @@ Page({
    */
   onShareAppMessage: function() {
 
+  },
+  goToCart:function(){
+    wx.navigateTo({
+      url: '/pages/cart/cart'
+    })
+  },
+  goToBuyNow: function () {
+    wx.navigateTo({
+      url: '/pages/goods/info'
+    })
   }
 })

@@ -1,0 +1,71 @@
+.coupon-list{
+  padding: 60rpx 40rpx;
+}
+
+.coupon-list .coupon-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+  width: 670rpx;
+  height: 180rpx;
+  box-sizing: border-box;
+  padding-right: 18rpx;
+  padding-left: 32rpx;
+  background: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/coupon/invalid_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coupon-item.active{
+  background: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/coupon/valid_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coupon-item .coupon-money{
+  margin-right: 22rpx;
+  font-size: 60rpx;
+  font-weight: 600;
+  letter-spacing: 3.2rpx;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.coupon-item.active .coupon-money{
+  color: #f55a23;
+}
+
+.coupon-item .coupon-title{
+  font-size: 24rpx;
+  line-height: 2.25;
+  letter-spacing: 1.8rpx;
+  color: #4a4a4a;
+}
+
+.coupon-item .coupon-date{
+  font-size: 24rpx;
+  line-height: 2.25;
+  letter-spacing: 1.8rpx;
+  color: #4a4a4a;
+}
+
+.coupon-item .coupon-use{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 164rpx;
+  height: 80rpx;
+  border-radius: 46rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  font-weight: 600;
+  letter-spacing: 1.6rpx;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.coupon-item.active .coupon-use{
+  background-image: linear-gradient(68deg, #fa508c, #ffc86e);
+  color: #fff;
+}

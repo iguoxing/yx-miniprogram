@@ -1,0 +1,79 @@
+.coupon-info{
+  padding: 60rpx 40rpx;
+}
+
+.coupon-info .coupon-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 30rpx;
+  box-sizing:border-box;
+  width: 670rpx;
+  height: 300rpx;
+  padding-right:50rpx;
+  padding-left:54rpx;
+  background: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/coupon/info_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coupon-banner .banner-num{
+  font-size: 60rpx;
+  font-weight: 600;
+  letter-spacing: 3.2rpx;
+  text-align: center;
+  color: #fff;
+}
+
+.coupon-banner .banner-title{
+  font-size: 24rpx;
+  line-height: 2.25;
+  letter-spacing: 1.8rpx;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.coupon-info .coupon-use{
+  width: 668rpx;
+  height: 220rpx;
+  box-sizing: border-box;
+  margin-bottom: 60rpx;
+  padding-top: 36rpx;
+  /* padding-bottom: 34rpx; */
+  padding-left: 30rpx;
+  mix-blend-mode: multiply;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color: #fff;
+}
+
+.coupon-use .use-title{
+  margin-bottom: 14rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  letter-spacing: 1.4rpx;
+  color: #000;
+}
+
+.coupon-use .user-des{
+  font-size: 24rpx;
+  letter-spacing: 1.4rpx;
+  color: #000;
+}
+
+.coupon-info .use-now{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 492rpx;
+  height: 98rpx;
+  /* box-sizing: border-box; */
+  border-radius: 46rpx;
+  background-image: linear-gradient(81deg, #fa508c, #ffc86e);
+  font-size: 30rpx;
+  font-weight: 500;
+  letter-spacing: 1.6rpx;
+  text-align: center;
+  color: #fff;
+}

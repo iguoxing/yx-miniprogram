@@ -1,0 +1,18 @@
+<view class="coupon-info">
+  <view class="coupon-banner">
+    <view class='banner-num'>¥60.00</view>
+    <view class='banner-title'>
+      <view>购买净化器时可用</view>
+      <view>有效期：2019.6.6</view>
+    </view>
+  </view>
+  <view class='coupon-use'>
+    <view class='use-title'>使用说明</view>
+    <view class='user-des'>
+      <view>1、代金券可用于购买产品等；</view>
+      <view>2、单个商品限使用 1 张；</view>
+      <view>3、单人第一次被邀请时可获得代金券；</view>
+    </view>
+  </view>
+  <view class='use-now'>立即使用</view>
+</view>

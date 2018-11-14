@@ -8,7 +8,6 @@
       </swiper-item>
     </block>
   </swiper>
-
   <view class="goods-content">
     <view class="content-title">怡享经典净化器</view>
     <view class="content-info flex-space-between">
@@ -30,7 +29,7 @@
   </view>
 
   <view class='flex-center-center'>
-    <view class='btn-info'>加入购物车</view>
-    <view class='btn-info'>立即购买</view>
+    <view class='btn-info' bindtap='goToCart'>加入购物车</view>
+    <view class='btn-info' bindtap='goToBuyNow'>立即购买</view>
   </view>
 </view>

@@ -1,11 +1,11 @@
-// pages/order/order.js
+// pages/coupon/list.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectedTab:1,
+
   },
 
   /**
@@ -28,7 +28,11 @@ Page({
   onShow: function () {
 
   },
-
+  goToInfo:function(){
+    wx.navigateTo({
+      url: '/pages/coupon/info',
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
@@ -62,13 +66,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  chooseTab:function(e){
-    var that=this;
-    that.setData({
-      selectedTab:e.target.dataset.tab,
-    })
-    
   }
-
 })

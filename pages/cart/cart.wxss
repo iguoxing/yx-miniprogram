@@ -1,1 +1,136 @@
-/* pages/cart/cart.wxss */
+.yx-cart{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 66%;
+  /* min-height: 60%; */
+  padding-top: 130rpx;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.yx-cart .cart-item{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+  width: 668rpx;
+  height: 272rpx;
+  padding-left: 46rpx;
+  mix-blend-mode: multiply;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+}
+
+.cart-item .cart-img{
+  margin-right: 32rpx;  
+  width: 104rpx;
+  height: 198rpx;
+}
+
+.cart-item .cart-info{
+  width: 72%;
+}
+
+.cart-info .cart-title,
+.cart-info .cart-secend-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  letter-spacing: 1.4rpx;
+}
+
+.cart-info .cart-title{
+  color: #000;
+}
+
+.cart-title .cart-sale,
+.cart-secend-title .cart-presale{
+  font-size: 32rpx;
+  letter-spacing: 1.8rpx;
+}
+.cart-title .cart-sale{
+  font-weight: 500;
+}
+
+.cart-info .cart-secend-title{
+  margin-bottom: 30rpx;
+  color: #f55a23;
+}
+
+.cart-secend-title .cart-presale{
+  text-decoration: line-through;
+  color: #9b9b9b;
+}
+
+.cart-info .cart-device{
+  width: 224rpx;
+  font-size: 60rpx;
+  font-weight: 600;
+  color: #24253d;
+}
+
+.cart-device .device-icon{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.cart-info .cart-close{
+  width: 36rpx;
+  height: 36rpx;
+  opacity: .3;
+}
+
+/* 优惠券合计 */
+.yx-cart .cart-sum{
+  position: fixed;
+  bottom: 0;
+  z-index: 111;
+  width: 750rpx;
+  height: 214rpx;
+  padding-left: 24rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color:#fff;
+}
+
+.cart-sum .cart-coupon{
+  padding: 20rpx 50rpx 20rpx 28rpx;
+  border-bottom: solid 2rpx #e0e0e1;
+  font-size: 26rpx;
+  letter-spacing: 1.8Rpx;
+  color: #000;
+}
+
+.cart-coupon .coupon-num{
+  font-size: 26rpx;
+  letter-spacing: 1.8rpx;
+  text-align: right;
+  color: #f55a23;
+}
+
+.cart-sum .cart-settle{
+  height: 128rpx;
+  padding-right: 40rpx;
+  padding-left: 52rpx;
+}
+
+.cart-settle .settle-title{
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 1.8rpx;
+  color: #000;
+}
+
+.settle-title .settle-num{
+  font-weight: 400;
+}
+
+.yx-cart .cart-btn{
+  margin-right: 0;
+  width: 224rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+}

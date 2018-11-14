@@ -1,11 +1,11 @@
-// pages/order/order.js
+// pages/coupon/info.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectedTab:1,
+
   },
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  chooseTab:function(e){
-    var that=this;
-    that.setData({
-      selectedTab:e.target.dataset.tab,
-    })
-    
   }
-
 })

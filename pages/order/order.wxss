@@ -1,1 +1,30 @@
-/* pages/order/order.wxss */
+.yx-order{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-top: 130rpx;
+  text-align: center;
+  justify-content: center;
+}
+
+.yx-order .order-tab{
+  margin-top: 0rpx;
+  width: 100%;
+}
+
+.order-tab .tab-item{
+  margin-right: 136rpx;
+  font-size: 30rpx;
+  letter-spacing: 1.6rpx;
+  color: #9b9b9b;
+}
+
+.order-tab .tab-item.active{
+  text-decoration: underline;
+  color: #f55a23; 
+}
+
+.order-tab .tab-item:last-child{
+  margin-right: 0;
+}
+

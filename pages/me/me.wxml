@@ -1,2 +1,32 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view class="yx-me">
+  <view class='me-header'>
+    <view class='me-head'>
+      <image class='head-icon' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/me/head.png'></image>
+    </view>
+  </view>
+
+  <view class='me-list'>
+    <view class='me-item'>
+      <label class='item-title'>我的代金券</label>
+      <label class='item-arrow'>></label>
+    </view>
+    <view class='me-item'>
+      <label class='item-title'>收货地址</label>
+      <label class='item-arrow'>></label>
+    </view>
+    <view class='me-item'>
+      <label class='item-title'>分享</label>
+      <label class='item-arrow'>></label>
+    </view>
+    <view class='me-item'>
+      <label class='item-title'>成为合伙人</label>
+      <label class='item-arrow'>></label>
+    </view>
+    <view class='me-item'>
+      <label class='item-title'>关于我们</label>
+      <label class='item-arrow'>></label>
+    </view>
+  </view>
+
+  
+</view>

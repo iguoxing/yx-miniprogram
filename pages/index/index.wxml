@@ -5,18 +5,10 @@
     <navigator url="/pages/goods/list" class='index-title-more'>更多产品 ></navigator>
   </view>
   <view class="index-goods">
-     <view class='goods-item'>
-        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'></image>
-        <view class="goods-title">怡享经典净化器</view>
-     </view>
-     <view class='goods-item'>
-        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_2.png'></image>
-        <view class="goods-title">怡享智能门锁</view>
-     </view>
-     <view class='goods-item'>
-        <image class="goods-img" src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_3.png'></image>
-        <view class="goods-title">怡享净化器滤芯</view>
-     </view>
+     <navigator class='goods-item' wx:for="{{goodsData}}" url="/pages/goods/info?id=1">
+        <image class="goods-img" src='{{item.img}}'></image>
+        <view class="goods-title">{{item.name}}</view>
+     </navigator>
   </view>
   <a class='index-phone'>联系客服：400-707-8889</a>
 </view>

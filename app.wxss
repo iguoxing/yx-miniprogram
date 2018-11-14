@@ -48,9 +48,26 @@
   color: #f55a23;
 }
 
-.yx-index, .yx-goods-list, .yx-goods-info {
+.yx-index, .yx-goods-list, .yx-goods-info,.yx-cart,.yx-order {
   min-height: 100%;
   background-image: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/head.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.no-data{
+  margin-top: 320rpx;
+}
+
+.no-data .no-data-icon{
+  width: 180rpx;
+  height: 147rpx;
+}
+
+.no-data .no-data-title{
+  margin-top: 22rpx;
+  font-size: 30rpx;
+  letter-spacing: 1.6rpx;
+  text-align: center;
+  color: #e0e0e1;
 }

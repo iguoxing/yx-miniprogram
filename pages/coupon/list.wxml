@@ -1,0 +1,26 @@
+<view class='coupon-list'>
+  <view class='coupon-item active'>
+    <view>
+      <view>
+        <label class='coupon-money'>¥60</label>
+        <label class='coupon-title'>购买净化器时可用</label>
+      </view>
+      <view class='coupon-date'>
+        有效期：2019.6.6
+      </view>
+    </view>
+    <view class="coupon-use" bindtap='goToInfo'>去使用</view>
+  </view>
+  <view class='coupon-item'>
+    <view>
+      <view>
+        <label class='coupon-money'>¥60</label>
+        <label class='coupon-title'>购买净化器时可用</label>
+      </view>
+      <view class='coupon-date'>
+        有效期：2019.6.6
+      </view>
+    </view>
+    <view class='coupon-use'>已使用</view>
+  </view>
+</view>

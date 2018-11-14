@@ -1,1 +1,52 @@
-/* pages/me/me.wxss */
+.yx-me{
+  position: relative;
+  min-height: 100%;
+  /* padding-top: 130rpx; */
+  padding-bottom: 40rpx;
+  text-align: center;
+  
+}
+
+.yx-me .me-header{
+  width: 750rpx;
+  height: 150rpx;
+  background: #FD7849;
+}
+
+.yx-me .me-head{
+  position: absolute;
+  top: 20rpx;
+  width: 750rpx;
+  background-image: url(https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/head.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 120rpx;
+}
+
+.me-head .head-icon{
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.me-list{
+  margin-top: 100rpx;
+  padding-right: 38rpx;
+  padding-left: 38rpx;
+}
+
+.me-list .me-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1rpx #e0e0e1;
+  padding: 32rpx 0;
+  
+}
+
+.me-item .item-title{
+  font-size: 34rpx;
+  color: #24253d;
+}
+
+.me-item .item-arrow{
+  color: #fd5739;
+}

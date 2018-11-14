@@ -7,7 +7,21 @@ Page({
     motto: 'Hello 1World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    goodsData:[
+      {
+        name:'怡享经典净化器',
+        img:'https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_1.png'
+      },
+      {
+        name: '怡享智能门锁',
+        img: 'https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_2.png'
+      },
+      {
+        name: '怡享净化器滤芯',
+        img: 'https://yix.oss-cn-beijing.aliyuncs.com/assets/img/index/goods_3.png'
+      },
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

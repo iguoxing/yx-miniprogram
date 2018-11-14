@@ -1,2 +1,11 @@
-<!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view class="yx-order">
+  <view class='order-tab'>
+    <label class="tab-item {{selectedTab==1?'active':''}}" data-tab='1' bindtap='chooseTab'>已下单</label>
+    <label class="tab-item {{selectedTab==2?'active':''}}" data-tab='2' bindtap='chooseTab'>运输中</label>
+    <label class="tab-item {{selectedTab==3?'active':''}}" data-tab='3' bindtap='chooseTab'>已完成</label>
+  </view>
+  <view class='no-data'>
+    <image class='no-data-icon' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/common/nodata.png'></image>
+    <view class='no-data-title'>暂无数据</view>
+  </view>
+</view>
