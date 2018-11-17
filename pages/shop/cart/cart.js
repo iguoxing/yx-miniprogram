@@ -41,6 +41,11 @@ Page({
       url: '/pages/coupon/info',
     })
   },
+  goToConfirm:function(){
+    wx.navigateTo({
+      url: '/pages/shop/confirm/confirm',
+    })
+  },
   addGoodsNum: function (e) {
     console.info(1)
     console.info(e)

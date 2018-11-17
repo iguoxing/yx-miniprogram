@@ -1,0 +1,42 @@
+<view class="shop-confirm">
+  <view class='confirm-address'>
+    <image class='address-points' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/shop/location.svg'></image>
+    <view class='address-info'>
+      <view>
+       <text class='address-name'>张亮 </text>
+       <text>13785861192</text>
+      </view>
+      <view>北京 北京市 朝阳区远洋国际中心6层</view>
+    </view>
+    <image class='address-arrow' src='https://yix.oss-cn-beijing.aliyuncs.com/assets/img/shop/arrow.svg'></image>
+  </view>
+  <view class='confirm-goods' wx:for="{{goodsData}}" wx:key="goods">
+    <view class='goods-info'>
+      <image class='goods-icon' src='{{item.img}}'></image>
+      <view>
+        <view class='goods-title beyond-hide'>{{item.name}}</view>
+        <view class='goods-time' >
+          <text wx:if="{{item.time}}">发货时间：卖家承诺{{item.time}}小时</text>
+        </view>
+        <view class='flex-space-between'>
+          <view class='goods-price'>￥1900</view>
+          <view class='goods-num'>*5</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='cart-sum'>
+    <view class='cart-coupon flex-space-between'>
+      <label>通用优惠券</label>
+      <label class='coupon-num' bindtap='goToCoupon'>一张可用 ></label>
+    </view>
+    <view class='cart-settle flex-space-between'>
+      <view class='settle-title'>合计：<label class='settle-num'> ￥2200</label></view>
+      <view class='cart-btn btn-primary' bindtap='goToPay'>提交订单</view>
+    </view>
+  </view>
+
+</view>
+
+

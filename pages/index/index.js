@@ -1,6 +1,7 @@
-//index.js
 //获取应用实例
 const app = getApp()
+const core = require('../../static/js/core.js');
+
 
 Page({
   data: {
@@ -57,6 +58,18 @@ Page({
         }
       })
     }
+    core.requestApi(app.globalData.shopApiUrl, {
+      act: 'main'
+    }, function (res) {
+      if (res.data.err == 0) {
+        console.log(res.data)
+        // that.setData({
+        //   goods: res.data.buying_list
+        // });
+      }
+
+    }, 'GET');
+
   },
   getUserInfo: function(e) {
     console.log(e)

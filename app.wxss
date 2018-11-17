@@ -71,3 +71,10 @@
   text-align: center;
   color: #e0e0e1;
 }
+
+.beyond-hide{
+  display:block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

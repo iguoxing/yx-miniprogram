@@ -1,0 +1,150 @@
+.shop-confirm{
+  position: relative;
+  padding:40rpx;
+}
+
+.shop-confirm .confirm-address{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom: 30rpx;
+  padding: 30rpx;
+  mix-blend-mode: multiply;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+}
+
+.confirm-address .address-points{
+  margin-right: 54rpx;
+  width: 54rpx;
+  height: 64rpx;
+}
+
+.confirm-address .address-info{
+  min-width: 420rpx;
+  font-size: 24rpx;
+  letter-spacing: 1.4rpx;
+  color: #000000;
+}
+
+.address-info .address-name{
+  font-size: 34rpx;
+}
+
+.confirm-address .address-arrow{
+  margin-left: 30rpx; 
+  width: 14rpx;
+  height: 24rpx;
+}
+
+.shop-confirm .confirm-goods{
+  margin-bottom: 30rpx;
+  min-height: 230rpx;
+  box-sizing: border-box;
+  padding-top: 36rpx;
+  padding-bottom: 32rpx;
+  mix-blend-mode: multiply;
+  border-radius: 20rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+}
+
+.confirm-goods .goods-info{
+  display: flex;
+  align-items:center;
+  margin-left: 56rpx;
+  font-size: 24rpx;
+  letter-spacing: 1.4rpx;
+}
+
+.goods-info .goods-icon{
+  margin-right: 46rpx;
+  width: 108rpx;
+  height: 134rpx;
+}
+
+.goods-info .goods-title{
+  margin-bottom: 10rpx;
+  width:400rpx;
+  color: #000000;
+}
+
+.goods-info .goods-time{
+  display: block;
+  margin-bottom: 50rpx;
+  height: 36rpx;
+  color: #f57c23;
+}
+
+.flex-col-left{
+  display:flex;
+  flex-direction:column;
+  align-items:baseline;
+  justify-content: space-between;
+}
+
+.goods-info .goods-price{
+  font-size: 30rpx;
+  color: red;
+}
+
+.goods-info .goods-num{
+  font-size: 24rpx;
+
+}
+
+/* 优惠券合计 */
+.shop-confirm .cart-sum{
+  position: fixed;
+  left:0rpx;
+  bottom: 0;
+  z-index: 111;
+  width: 750rpx;
+  height: 214rpx;
+  box-sizing: border-box;
+  padding-left: 24rpx;
+  box-shadow: 0 2rpx 6rpx 4rpx rgba(0, 0, 0, 0.09);
+  background-color:#fff;
+}
+
+.cart-sum .cart-coupon{
+  padding: 20rpx 50rpx 20rpx 28rpx;
+  border-bottom: solid 2rpx #e0e0e1;
+  font-size: 26rpx;
+  letter-spacing: 1.8Rpx;
+  color: #000;
+}
+
+.cart-coupon .coupon-num{
+  font-size: 26rpx;
+  letter-spacing: 1.8rpx;
+  text-align: right;
+  color: #f55a23;
+}
+
+.cart-sum .cart-settle{
+  height: 128rpx;
+  padding-right: 40rpx;
+  padding-left: 52rpx;
+}
+
+.cart-settle .settle-title{
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 1.8rpx;
+  color: #000;
+}
+
+.settle-title .settle-num{
+  font-weight: 400;
+}
+
+.shop-confirm .cart-btn{
+  margin-right: 0;
+  width: 224rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+}

@@ -5,7 +5,7 @@
     <navigator url="/pages/goods/list" class='index-title-more'>更多产品 ></navigator>
   </view>
   <view class="index-goods">
-     <navigator class='goods-item' wx:for="{{goodsData}}" url="/pages/goods/info?id=1">
+     <navigator class='goods-item' wx:for="{{goodsData}}" url="/pages/goods/info?id=1" wx:key="index">
         <image class="goods-img" src='{{item.img}}'></image>
         <view class="goods-title">{{item.name}}</view>
      </navigator>

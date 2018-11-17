@@ -94,7 +94,7 @@ Page({
   },
   goToCart:function(){
     wx.navigateTo({
-      url: '/pages/cart/cart'
+      url: '/pages/shop/cart/cart'
     })
   },
   goToBuyNow: function () {

@@ -1,9 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/shop/confirm/confirm",
+    "pages/shop/cart/cart",
     "pages/coupon/info",
     "pages/coupon/list",
-    "pages/cart/cart",
     "pages/me/me",
     "pages/order/order",
     "pages/goods/list",
@@ -30,7 +31,7 @@
         "selectedIconPath": "static/images/icon/index_select.png"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "pages/shop/cart/cart",
         "text": "购物车",
         "iconPath": "static/images/icon/cart_unselect.png",
         "selectedIconPath": "static/images/icon/cart_select.png"
